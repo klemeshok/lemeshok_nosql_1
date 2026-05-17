@@ -1,4 +1,3 @@
-```markdown
 # Аналітична платформа для музичного стрімінгового сервісу (MongoDB)
 
 ## Зміст
@@ -274,7 +273,5 @@ db.tracks.find(
   { track_genre: "pop", popularity: { $gte: 70 } }, 
   { _id: 0, track_genre: 1, popularity: 1 }
 );
-
-```
 
 ```
